@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
-* 
+* CONTROLADOR DE LA VISTA DE COMENTARIOS
 */
 class Home extends CI_Controller
 {
@@ -17,7 +17,7 @@ class Home extends CI_Controller
 	{
 		
 		$this->load->view('template/prueba_commentario');
-		$this->Post_db->mostrarCont();
+		
 
 		
 	}
